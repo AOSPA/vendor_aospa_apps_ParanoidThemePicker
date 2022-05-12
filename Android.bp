@@ -64,6 +64,13 @@ android_library {
     kotlincflags: ["-Xjvm-default=enable"],
 }
 
+prebuilt_etc {
+    name: "android.software.theme_picker.xml",
+    system_ext_specific: true,
+    sub_dir: "permissions",
+    src: "android.software.theme_picker.xml",
+}
+
 //
 // Build app code.
 //
@@ -105,6 +112,7 @@ android_app {
     overrides: ["ThemePicker", "WallpaperPicker2", "WallpaperPicker"],
 
     required: [
+        "android.software.theme_picker.xml",
         "privapp_whitelist_com.android.wallpaper",
         "default_permissions_com.android.wallpaper",
         "ParanoidColorStub",
