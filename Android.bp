@@ -64,6 +64,13 @@ android_library {
     kotlincflags: ["-Xjvm-default=enable"],
 }
 
+prebuilt_etc {
+    name: "android.software.theme_picker.xml",
+    system_ext_specific: true,
+    sub_dir: "permissions",
+    src: "android.software.theme_picker.xml",
+}
+
 //
 // Build app code.
 //
@@ -81,6 +88,8 @@ android_app {
         "src_override/**/*.java",
         "src_override/**/*.kt",
     ],
+
+    required: ["android.software.theme_picker.xml"],
 
     jni_libs: [
         "librenderscript-toolkit",
