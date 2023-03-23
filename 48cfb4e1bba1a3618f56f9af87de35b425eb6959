@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "32500d5e_b0985db1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2023-03-23T16:55:12Z",
+      "side": 1,
+      "message": "ParanoidThemePicker, no?",
+      "revId": "48cfb4e1bba1a3618f56f9af87de35b425eb6959",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
