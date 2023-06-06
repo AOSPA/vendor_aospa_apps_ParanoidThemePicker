@@ -16,6 +16,24 @@
       "message": "StatixOS copyright.",
       "revId": "697b31094388c0dbd61aa9049520168d86ef7030",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d97b145a_375fb3f5",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000509
+      },
+      "writtenOn": "2023-06-06T17:13:35Z",
+      "side": 1,
+      "message": "And 2023",
+      "parentUuid": "32e0a322_3beeb30c",
+      "revId": "697b31094388c0dbd61aa9049520168d86ef7030",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
