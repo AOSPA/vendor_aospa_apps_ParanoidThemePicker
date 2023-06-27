@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12b72ae6_ad0fed09",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-06-27T04:55:15Z",
+      "side": 1,
+      "message": "monochrome bundle works, we should update our colours accordingly",
+      "revId": "7f791ac13153d9599fefa4797351d53b5a4bd1ee",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
