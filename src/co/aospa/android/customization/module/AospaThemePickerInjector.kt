@@ -48,7 +48,9 @@ public class AospaThemePickerInjector : ThemePickerInjector() {
                         interactor = getNotificationsInteractor(activity),
                     ),
                     getFlags(),
-                    getClockCarouselViewModel(activity),
+                    getClockCarouselViewModelFactory(
+                        getClockPickerInteractor(activity.applicationContext),
+                    ),
                     getClockViewFactory(activity),
                     getDarkModeSnapshotRestorer(activity),
                     getThemedIconSnapshotRestorer(activity),
