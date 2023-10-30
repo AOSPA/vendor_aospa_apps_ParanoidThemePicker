@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10a5d4e3_d5389038",
+        "filename": "src/co/aospa/android/customization/module/AospaCustomizationSections.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 267,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-10-30T03:17:06Z",
+      "side": 0,
+      "message": "this seems to be from aosp, need to see if it actually breaks",
+      "revId": "d6ed0637f4fba12e79b20a3bf51da2f06ed0d59c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
