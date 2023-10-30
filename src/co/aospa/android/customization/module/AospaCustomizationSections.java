@@ -151,15 +151,7 @@ public final class AospaCustomizationSections implements CustomizationSections {
                                         activity,
                                         mColorPickerViewModelFactory)
                                         .get(ColorPickerViewModel.class),
-                                lifecycleOwner),
-                        // Wallpaper quick switch section.
-                        new WallpaperQuickSwitchSectionController(
-                                customizationPickerViewModel.getWallpaperQuickSwitchViewModel(
-                                        screen),
-                                lifecycleOwner,
-                                sectionNavigationController,
-                                savedInstanceState == null),
-                        /* reverseOrderWhenHorizontal= */ true));
+                                lifecycleOwner)));
 
         switch (screen) {
             case LOCK_SCREEN:
