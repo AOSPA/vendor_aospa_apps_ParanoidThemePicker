@@ -40,9 +40,10 @@ import androidx.annotation.Dimension;
 
 import com.android.customization.model.ResourceConstants;
 import com.android.customization.model.theme.OverlayManagerCompat;
-import com.android.customization.model.theme.ThemeBundle;
 import com.android.customization.widget.DynamicAdaptiveIconDrawable;
 import com.android.wallpaper.R;
+
+import co.aospa.android.customization.model.theme.ShapeAppIcon;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -106,8 +107,8 @@ public class IconShapeOptionProvider {
         return shapeDrawable;
     }
 
-    private List<ThemeBundle.PreviewInfo.ShapeAppIcon> getShapedAppIcons(Path path) {
-        List<ThemeBundle.PreviewInfo.ShapeAppIcon> shapedAppIcons = new ArrayList<>();
+    private List<ShapeAppIcon> getShapedAppIcons(Path path) {
+        List<ShapeAppIcon> shapedAppIcons = new ArrayList<>();
         for (String packageName : mShapePreviewIconPackages) {
             Drawable icon = null;
             CharSequence name = null;
@@ -127,7 +128,7 @@ public class IconShapeOptionProvider {
                         + ", won't use it for icon shape preview");
             } finally {
                 if (icon != null && !TextUtils.isEmpty(name)) {
-                    shapedAppIcons.add(new ThemeBundle.PreviewInfo.ShapeAppIcon(icon, name));
+                    shapedAppIcons.add(new ShapeAppIcon(icon));
                 }
             }
         }
