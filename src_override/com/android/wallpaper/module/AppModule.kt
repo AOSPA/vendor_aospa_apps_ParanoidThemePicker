@@ -18,7 +18,7 @@ package com.android.wallpaper.module
 import android.content.Context
 import com.android.customization.module.CustomizationInjector
 import com.android.customization.module.DefaultCustomizationPreferences
-import co.aospa.android.customization.module.AospaThemePickerInjector
+import co.aospa.android.customization.module.ParanoidThemePickerInjector
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
@@ -30,7 +30,7 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 abstract class AppModule {
-    @Binds @Singleton abstract fun bindInjector(impl: AospaThemePickerInjector): CustomizationInjector
+    @Binds @Singleton abstract fun bindInjector(impl: ParanoidThemePickerInjector): CustomizationInjector
 
     companion object {
         @Provides
